@@ -1,0 +1,118 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+@font-face {
+    font-family: "Digital";
+    src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+    src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: #4d4d4d;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: default;
+}
+button:hover {
+  color: black;
+  outline: .05em solid grey;
+  z-index: 3;
+}
+.calc {
+    border: 2px solid #47476b;
+    padding: 5px; 
+    background: black;
+    width: 320px; 
+    position: relative;
+    margin: auto;
+    top: 75px;
+}
+
+.calc-field {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.calc-execution {
+    background-color: #000;
+    width: 100%;
+    color: #000;
+    min-height: 70px;
+    font-family: digital;
+    font-size: 20px;
+    color: orange;
+    text-align: right;
+    vertical-align: text-top;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word; 
+}
+.calc-operation, .calc-toolbar {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    color: #000;
+    position: relative;
+}
+.calc-equal {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.calc-result {
+    font-size: 29px;
+    font-family: digital;
+    color: white;
+    text-align: right;
+    line-height: 35px;
+}
+.operation, .tool {
+    padding: 10px;
+    border: 1px solid #333;
+    flex-basis: 25%;
+    cursor: pointer;
+}
+
+.operation:hover, .tool:hover {
+  color: black;
+  outline: .05em solid grey;
+  z-index: 3;
+}
+.tool {
+    flex-basis: 33%;
+    background-color: #fff;
+    padding-top: 22px;
+    padding-bottom: 25px;
+}
+.tool-clearAll {
+    background-color: #ac3939;
+}
+.num {
+    flex-basis: 33.33%;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #333;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
